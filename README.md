@@ -12,7 +12,7 @@ Petrolanet es una aplicación web diseñada para gestionar el inventario en una 
 - **Frontend**: React para una interfaz de usuario dinámica y responsive.
 - **Backend**: Express en Node.js, proporcionando una API RESTful para la lógica del servidor.
 - **Base de Datos**: PostgreSQL, gestionada a través de Sequelize para modelar y manejar las operaciones de la base de datos.
-- **Herramientas Adicionales**: Vite para el desarrollo frontend y Tailwind CSS para el diseño.
+- **Herramientas Adicionales**: Vite para el desarrollo frontend, Tailwind CSS para el diseño y socket.io para la sincronización en tiempo real
 
 ## Capturas de pantalla
 <img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/Home.png?raw=true" width="200" height="100"></img>
