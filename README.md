@@ -1,14 +1,18 @@
 # Petrolanet Demo
 
-Este repositorio contiene el código fuente de Petrolanet, una aplicación web desarrollada con React y Express para gestionar el inventario en una empresa distribuidora de petroleo. 
+## Descripción del Proyecto
+Petrolanet es una aplicación web diseñada para gestionar el inventario en una empresa distribuidora de petróleo.
 
-### Link demo: 
+### Características Principales
+- **Gestión de Inventario**: Permite a los usuarios cargar y descargar petróleo de estanques y camiones, actualizando los datos en tiempo real.
+- **Registro de Movimientos**: Todos los movimientos quedan registrados en la base de datos, permitiendo un seguimiento detallado de las operaciones.
+- **Filtrado y Análisis de Datos**: La aplicación ofrece funcionalidades para filtrar la data de distintas maneras y visualizar totales, facilitando el análisis de la información.
 
-## Uso
-Despues de crear los estanques, camiones, clientes y proveedores de la empresa, el flujo del programa sería el siguiente
-1. En el Home cada usuario carga y descarga petroleo desde el estanque/camión que corresponda. Los datos se actualizan en tiempo real para todos los usuarios
-2. Todos los movimientos van quedando registrados en la base de datos.
-3. En la base de datos se puede filtrar la data de distintas maneras. También se pueden ver los totales
+### Tecnologías Utilizadas
+- **Frontend**: React para una interfaz de usuario dinámica y responsive.
+- **Backend**: Express en Node.js, proporcionando una API RESTful para la lógica del servidor.
+- **Base de Datos**: PostgreSQL, gestionada a través de Sequelize para modelar y manejar las operaciones de la base de datos.
+- **Herramientas Adicionales**: Vite para el desarrollo frontend y Tailwind CSS para el diseño.
 
 ## Capturas de pantalla
 <img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/Home.png?raw=true" width="200" height="100"></img>
