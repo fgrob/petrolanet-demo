@@ -1,6 +1,6 @@
 # Petrolanet Demo
 
-Este repositorio contiene el código fuente de Petrolanet, una aplicación web desarrollada con React para gestionar el inventario en una empresa distribuidora de petroleo. 
+Este repositorio contiene el código fuente de Petrolanet, una aplicación web desarrollada con React y Express para gestionar el inventario en una empresa distribuidora de petroleo. 
 
 ### Link demo: 
 
