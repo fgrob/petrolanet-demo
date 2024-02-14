@@ -7,7 +7,8 @@ Este repositorio contiene el código fuente de Petrolanet, una aplicación web d
 ## Uso
 Despues de crear los estanques, camiones, clientes y proveedores de la empresa, el flujo del programa sería el siguiente
 1. En el Home cada usuario carga y descarga petroleo desde el estanque/camión que corresponda. Los datos se actualizan en tiempo real para todos los usuarios
-2. Todos los movimientos van quedando registrados en la base de datos
+2. Todos los movimientos van quedando registrados en la base de datos.
+3. En la base de datos se puede filtrar la data de distintas maneras. También se pueden ver los totales
 
 ## Capturas de pantalla
 <img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/Home.png?raw=true" width="200" height="100"></img>
