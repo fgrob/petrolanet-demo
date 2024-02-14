@@ -11,11 +11,11 @@ Despues de crear los estanques, camiones, clientes y proveedores de la empresa, 
 
 ## Capturas de pantalla
 <img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/Home.png?raw=true" width="200" height="100"></img>
-<img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/Home - venta.png?raw=true" width="400" height="300"></img>
-<img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/Home - confirmar venta.png?raw=true" width="400" height="300"></img>
-<img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/base de datos.png?raw=true" width="400" height="300"></img>
-<img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/base de datos - totales.png?raw=true" width="400" height="300"></img>
-<img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/base de datos - filtros.png?raw=true" width="400" height="300"></img>
-<img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/base de datos - editar evento.png?raw=true" width="400" height="300"></img>
-<img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/clientes.png?raw=true" width="400" height="300"></img>
-<img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/ajustes.png?raw=true" width="400" height="300"></img>
+<img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/Home - venta.png?raw=true" width="200" height="100"></img>
+<img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/Home - confirmar venta.png?raw=true" width="200" height="100"></img>
+<img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/base de datos.png?raw=true" width="200" height="100"></img>
+<img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/base de datos - totales.png?raw=true" width="200" height="100"></img>
+<img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/base de datos - filtros.png?raw=true" width="200" height="100"></img>
+<img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/base de datos - editar evento.png?raw=true" width="200" height="100"></img>
+<img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/clientes.png?raw=true" width="200" height="100"></img>
+<img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/ajustes.png?raw=true" width="200" height="100"></img>
