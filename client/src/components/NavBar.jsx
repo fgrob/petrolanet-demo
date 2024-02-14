@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-import { useAuth0 } from "@auth0/auth0-react";
 import { FaUserCircle } from "react-icons/fa";
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
 
@@ -8,7 +7,6 @@ const NavBar = ({ dispatchSideBarState }) => {
   const [header, setHeader] = useState("");
   const location = useLocation();
   const [openUserSection, setOpenUserSection] = useState(false);
-  const { logout } = useAuth0();
 
   const getHeader = () => {
     if (location.pathname === "/") {
@@ -55,12 +53,7 @@ const NavBar = ({ dispatchSideBarState }) => {
                 <a href="/perfil">Mi Perfil</a>
               </li> */}
               <li>
-                <button
-                  onClick={() =>
-                    logout({
-                      logoutParams: { returnTo: window.location.origin },
-                    })
-                  }
+                <button                 
                 >
                   Cerrar Sesión
                 </button>
