@@ -10,7 +10,7 @@ Despues de crear los estanques, camiones, clientes y proveedores de la empresa, 
 2. Todos los movimientos van quedando registrados en la base de datos
 
 ## Capturas de pantalla
-<img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/Home.png?raw=true" width="400" height="300"></img>
+<img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/Home.png?raw=true" width="300" height="100"></img>
 <img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/Home - venta.png?raw=true" width="400" height="300"></img>
 <img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/Home - confirmar venta.png?raw=true" width="400" height="300"></img>
 <img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/base de datos.png?raw=true" width="400" height="300"></img>
