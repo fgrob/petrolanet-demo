@@ -1,22 +1,22 @@
 # Petrolanet Demo
 
-## Descripción del Proyecto
-Petrolanet es una aplicación web diseñada para gestionar el inventario en una empresa distribuidora de petróleo.
+## Project Description
+Petrolanet is a web application designed to manage inventory in an oil distribution company.
 
-### Características Principales
-- **Gestión de Inventario**: Permite a los usuarios cargar y descargar petróleo de estanques y camiones, actualizando los datos en tiempo real.
-- **Registro de Movimientos**: Todos los movimientos quedan registrados en la base de datos, permitiendo un seguimiento detallado de las operaciones.
-- **Filtrado y Análisis de Datos**: La aplicación ofrece funcionalidades para filtrar la data de distintas maneras y visualizar totales, facilitando el análisis de la información.
+### Key Features
+- **Inventory Management**: Allows users to load and unload oil from tanks and trucks, updating data in real-time.
+- **Movement Logging**: All movements are recorded in the database, enabling detailed tracking of operations.
+- **Data Filtering and Analysis**: The application offers functionalities to filter data in various ways and visualize totals, facilitating information analysis.
 
-### Tecnologías Utilizadas
-- **Frontend**: React para una interfaz de usuario dinámica y responsive.
-- **Backend**: Express en Node.js, proporcionando una API RESTful para la lógica del servidor.
-- **Base de Datos**: PostgreSQL, gestionada a través de Sequelize para modelar y manejar las operaciones de la base de datos.
-- **Herramientas Adicionales**: Vite para el desarrollo frontend, Tailwind CSS para el diseño y socket.io para la sincronización en tiempo real
+### Technologies Used
+- **Frontend**: React for a dynamic and responsive user interface.
+- **Backend**: Express in Node.js, providing a RESTful API for server logic.
+- **Database**: PostgreSQL, managed through Sequelize for modeling and handling database operations.
+- **Additional Tools**: Vite for frontend development, Tailwind CSS for design, and socket.io for real-time synchronization.
 
-## Link Demo: https://petrolanet.fgrob.cl
+## Demo Link: https://petrolanet.fgrob.cl
 
-## Capturas de pantalla
+## Screenshots
 <img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/Home.png?raw=true" width="200" height="100"></img>
 <img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/Home - venta.png?raw=true" width="200" height="100"></img>
 <img src="https://github.com/fgrob/petrolanet-demo/blob/main/Screenshots/Home - confirmar venta.png?raw=true" width="200" height="100"></img>
