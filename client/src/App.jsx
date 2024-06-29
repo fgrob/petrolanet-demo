@@ -84,16 +84,10 @@ function App() {
   }, []);
 
   useEffect(() => {
-    console.log('intentando ejecutar socket..')
     const socket = io(import.meta.env.VITE_SOCKETIO_BACKEND_URL);
-    console.log('esto es socket?', io)
 
     socket.on("connect", () => {
-      console.log('socket conectado! o eso creo')
-      console.log('VAmos a intentarp oner la id del socket en el local. esta es la id:', socket.id)
       localStorage.setItem("socketId", socket.id);
-      console.log('y ahoar voy a poner un local storage por webiar')
-      localStorage.setItem("elwebeo", "112345");
 
     });
 
