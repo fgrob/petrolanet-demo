@@ -2,7 +2,6 @@ require("dotenv").config();
 const express = require("express");
 const http = require("http");
 const cors = require("cors");
-const db = require("./models");
 const socketIO = require("./socket.io");
 
 const app = express();
@@ -20,7 +19,7 @@ require("./routes/client.routes")(app);
 require("./routes/supplier.routes")(app);
 require("./routes/eventLog.routes")(app);
 
-port = process.env.PORT;
+port = process.env.PORT;  
 server.listen(port, () => {
   console.log(`Listening at port ${port}`);
 });
