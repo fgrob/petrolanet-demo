@@ -66,20 +66,6 @@ const Autocomplete = ({
     }
   }, [inputValue]);
 
-  useEffect(() => {
-    const handleFocusChange = () => {
-      if (document.activeElement !== inputRef.current) {
-        setOpenSuggestions(false);
-      }
-    };
-
-    document.addEventListener("focusin", handleFocusChange);
-
-    return () => {
-      document.removeEventListener("focusin", handleFocusChange);
-    };
-  }, []);
-
   // If there is a click inside the input field, open and update the suggestion list. If it is already open, close it
   const handleInputClick = () => {
     if (openSuggestions) {
