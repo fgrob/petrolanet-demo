@@ -1,3 +1,5 @@
+// TRADUCIDO
+
 import React, { useContext, useEffect, useState } from "react";
 import { AppContext } from "../../App";
 import tankService from "../../services/tank.service";
@@ -90,7 +92,7 @@ const ClientSupplierView = ({
     e.preventDefault();
 
     if (clientSupplier === "") {
-      setAutocompleteError("Debes seleccionar una opción válida");
+      setAutocompleteError("You must selected a valid option");
       return;
     }
 
@@ -122,7 +124,7 @@ const ClientSupplierView = ({
   return (
     <div className="w-full overflow-auto rounded-lg bg-white p-2">
       <div className="text-center text-2xl">
-        {action === "load" ? "Recarga de Combustible" : "Venta Cliente"}
+        {action === "load" ? "Fuel Refill" : "Client Sale"}
       </div>
       {!isConfirmationVisible ? (
         isLoading ? (
@@ -154,7 +156,7 @@ const ClientSupplierView = ({
             )}
             <div className="relative w-full">
               <label htmlFor="client" className="block">
-                {action === "load" ? "Proveedor" : "Cliente"}
+                {action === "load" ? "Supplier" : "Client"}
               </label>
               <BiSolidCheckCircle
                 className={`absolute right-4 top-8 h-6 w-6 text-green-600 transition-opacity duration-200 ease-in-out ${
@@ -202,7 +204,7 @@ const ClientSupplierView = ({
                   pattern="[0-9]*"
                   autoComplete="off"
                   onInvalid={(e) =>
-                    e.target.setCustomValidity("Debes ingresar un folio válido")
+                    e.target.setCustomValidity("You must enter a valid document number.")
                   }
                 />
               </div>
@@ -229,7 +231,7 @@ const ClientSupplierView = ({
                 pattern="[0-9]*"
                 autoComplete="off"
                 onInvalid={(e) =>
-                  e.target.setCustomValidity("Debes ingresar una cantidad")
+                  e.target.setCustomValidity("You must enter a valid quantity.")
                 }
               />
             </div>

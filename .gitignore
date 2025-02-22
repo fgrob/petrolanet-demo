@@ -33,3 +33,4 @@ private-key.pem
 cert-request.csr
 certificate.pem
 
+/yek-chunks
